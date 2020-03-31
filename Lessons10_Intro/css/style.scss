@@ -1,0 +1,54 @@
+// $font-stack: Helvetica, sans-serif;
+// $primary-color: #333;
+// body{
+//     font: 100% $font-stack;
+//     color: $primary-color;
+// }
+// div{
+//     background-color: red($color: #000000);
+// }
+// nav{
+//     ul{
+//         margin: 0;
+//         padding: 0;
+//         list-style: none;
+//     }
+//     li{
+//         display: inline-block;
+//     }
+//     a{
+//         display: block;
+//         padding: 6px 12px;
+//         text-decoration: none;
+//     }
+// }
+// .link{
+//     color: red;
+//     &:hover{
+//         color: green;
+//     }
+// }
+// .item{
+//     &:nth-child(2){
+//         background: red;
+//     }
+// }
+// @mixin box_sizes{
+//     width: 200px;
+//     height: 200px;
+// }
+// div{
+//     background: red;
+//     @include box_sizes();
+// }
+// @function setColor($color){
+//     @return $color;
+// }
+// div{
+//     width: 100px;
+//     height: 100px;
+//     background: setColor(green);
+// }
+@for $i from 1 through 12 {
+    .col-lg-#{$i} {width: $i;}
+}

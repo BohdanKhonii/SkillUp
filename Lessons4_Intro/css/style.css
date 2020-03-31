@@ -1,0 +1,58 @@
+/* #id1{
+    background-color: aqua;
+    padding: 10px;
+}
+.box{
+    background-color: gray;
+    border-width: 30px 30px 30px 30px;
+    border-style: solid;
+    border-color:red green orange black;
+    height: 50px;
+    width: 50px;
+    color: blue;
+    height: 1px;
+    width: 1px;
+}
+[data-attr]{
+    color: red;
+}
+div:hover{
+    background-color: rosybrown;
+    border-radius: 50%;
+}
+#id2::first-line{
+    background-color: seagreen;
+}
+#id2::before{
+    content: "Hello world ";    
+} */
+/* div{
+    width: 200px;
+    height: 100px;
+    border:1px solid grey;
+    margin: 1px;
+    display: inline-block;
+    
+}
+#two{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: blue;  
+}
+#id3{
+    position: absolute;
+    background: yellow;
+    top: 30px;
+    left: 30px;
+} */
+#col1{
+    float: left;
+    width: 150px;
+    background-color: lightskyblue;
+}
+#col2{
+    float: left;
+    width: 120px;
+    background-color: yellow;  
+}
