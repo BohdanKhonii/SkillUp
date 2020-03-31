@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #F6F7FA;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 25px;
+    min-width: 1112px;
+    max-width: 1500px;
+    flex-direction: column;
+}
+.cards, .price, .card, .content_two, .content_three, .large_card{
+    display: flex;
+}
+.cards{
+    padding-top: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: #FFFFFF;
+    border-radius: 16px;
+    width: 344px;
+    height: 672px;
+    padding: 80px 0px 40px 40px;
+    flex-direction: column;
+}
+.card:nth-child(2){
+    margin: 0px 40px;
+}
+.card:nth-child(4){
+    width: 416px;
+    height: 525px;
+    margin: 92px 40px 143px 0px;
+    padding: 24px 24px 50px 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card:nth-child(5){
+    width: 656px;
+    height: 525px;
+    margin-top: 92px;
+    padding: 24px 24px 50px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.price div:nth-child(1){    
+    font-size: 50px;    
+    letter-spacing: 0.03em;
+    color: #081F32;
+    font-family: DM Serif Display;
+}
+.price div:nth-child(2){
+    font-size: 16px;
+    line-height: 25px;
+    color: #A5ADBB;
+    margin-top: 15px;
+}
+.title{
+    font-size: 28px;
+    color: #F3B10E;
+    font-family: DM Serif Display;
+    margin: 28px auto 10px 0px;
+}
+.card:nth-child(2) .title{
+    color: #1DABF2;
+}
+.card:nth-child(3) .title{
+    color: #46D68C;
+}
+.content_one{
+    font-size: 16px;
+    width: 254px;
+}
+.line{
+    width: 292px;
+    height: 1.5px;
+    background: #EBECED;
+    margin: 40px auto 28.5px -14px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+li{
+    margin: 11px auto auto 0px;
+}
+li::before{
+    font-family: 'fontawesome';
+    content:"\f00c";
+    color: #F3B007;
+    margin-right: 12px;    
+}
+.card:nth-child(2) li::before{
+    color: #1DABF2;
+}
+.card:nth-child(3) li::before{
+    color: #46D68C;
+}
+button{
+    background: #EBECED;
+    border-radius: 8px;
+    width: 264px;
+    height: 48px;
+    border: none;
+    color: #798289;
+    font-size: 16px;
+    margin-top: 92px;
+}
+.card:nth-child(2) button{
+    border: 1.5px solid #EBECED;
+    background: white;
+}
+.card:nth-child(3) button{
+    background: #46D68C;
+    color: white;
+}
+.heading{
+    width: 99px;
+    height: 24px;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    background: #FFC22B;
+    border-radius: 4px;
+    align-self: flex-end;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+.card:nth-child(4) .price div:nth-child(1){
+    letter-spacing: 0.04em;
+    font-size: 72px;
+}
+.card:nth-child(4) .price div:nth-child(2){
+    font-size: 22px;
+    letter-spacing: 0.04em;
+    font-family: DM Serif Display;
+}
+.name{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2em;
+    color: #081F32;
+    text-transform: uppercase;
+    margin: 47px 0px 40px 0px;  
+}
+.item{
+    display: flex;
+    color: #081F32;
+}
+.item:nth-child(2){
+    margin: 20px auto 20px;
+}
+.content_two{
+    width: 272px;
+    height: 100px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin: 56px auto 0px 8px;
+    
+}
+.content_three{
+    width: 272px;
+    height: 100px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.grey_text{
+    color: grey;
+    margin-left: 5px;
+}
+a{
+    display: block;
+    background: #F8593B;
+    border-radius: 4px;
+    width: 288px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 67px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 66px;
+}
+img{
+    height: 441px;
+    width: 248px;
+    margin-top: 60px;
+}
+.large_card{
+    flex-direction: column;
+    align-items: center;
+}
+.card:nth-child(5) .heading{
+    align-self: flex-start;
+}
+.card:nth-child(5) .name{
+    margin-top: 70px;
+}
+.card:nth-child(5) .price{
+    margin-bottom: 56px;
+}

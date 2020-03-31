@@ -1,0 +1,33 @@
+ol{
+    list-style: upper-roman;
+}
+p{
+    font-weight:bold ;
+}
+ul{
+    list-style: disc;
+}
+a{
+    color: blue;
+}
+.table1{
+   border-collapse: collapse;
+    border: 2px solid black;
+}
+.th1{
+    border: 1px solid black;
+}
+.tr1{
+    border: 1px solid grey;
+}
+.submit{
+    position: relative;
+    left: 80px;
+}
+.table2{
+    border: 1px solid #D1D1D1;
+   
+}
+.tr2{
+  background: #CCCCFF;
+}

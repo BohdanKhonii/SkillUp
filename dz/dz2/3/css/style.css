@@ -1,0 +1,31 @@
+body{
+    background: #FFFF99;
+}
+*{
+    margin: 0;
+    text-align: center;
+}
+header{
+    background: #FFCC00;
+}
+option{
+    text-align: left;
+}
+form{
+    display: flex;
+}
+#text{
+    position: absolute;
+    left: calc(50% - 320px);
+}
+#input{
+    position: absolute;
+    left: calc(50% - 100px);
+}
+.text{
+    text-align: right;
+    font-size: 17px;
+}
+.input{
+    text-align: left;
+}

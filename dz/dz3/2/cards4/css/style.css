@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #F6F7FA;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 25px;
+    padding: 32px 48px 96px 48px;
+    min-width: 1256px;
+    max-width: 1256px;
+}
+.cards, .heading, .about, .footer, .price, .rating, .stroke, .hotel, .price{
+    display: flex;    
+}
+.title, .new_price, .old_price{
+    font-family: DM Serif Display;
+}
+.text, .order, .special{
+    font-family: Open Sans;
+}
+.cards{
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+.two{
+    margin: 0px 40px 96px 40px;
+}
+.card_top{
+    width: 360px;
+    height: 528px;
+    background: white;
+    border-radius: 16px;
+}
+.content{
+    padding: 34px 24px 30px 24px;
+}
+.header{
+    height: 216px;
+}
+.info{
+    position: relative;
+    left: 295px;    
+}
+.one .header{
+    background-image: url(../image/pizza_photo.png);
+}
+.two .header{
+    background-image: url(../image/tortellini_photo.png);
+}
+.three .header{
+    background-image: url(../image/strawberry_cake_photo.png);
+}
+.card_medium .header{
+    background-image: url(../image/hotel_photo.png);
+    height: 256px;
+}
+.card_large .header{
+    background-image: url(../image/hotel_photo_2.png);
+    height: 256px;
+}
+.heading{
+    justify-content: space-between;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    color: #081F32;
+}
+.text{
+    font-size: 16px;
+    color: #6E798C;
+    margin: 24px auto 33px auto;
+}
+.about{
+    color: #A5ADBB;
+    font-weight: 600;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.footer{
+    justify-content: space-between;
+    align-items: center;
+}
+.new_price{
+    font-size: 28px;
+    color: #081F32;
+    margin-right: 10px;
+}
+.old_price{
+    font-size: 20px;
+    text-decoration-line: line-through;
+    color: #F8593B;
+}
+.order{
+    display: block;
+    width: 144px;
+    height: 44px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 8px;
+    letter-spacing: 0.18em;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background: #2ECC71;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.card_medium{
+    width: 512px;
+    height: 716px;
+    background: white;
+    border-radius: 16px;
+}
+.card_large{
+    width: 608px;
+    height: 716px;
+    background: white;
+    margin-left: 40px;
+    border-radius: 16px;
+}
+.special{
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    height: 24px;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    background: #007AE9;
+    color: white;
+    border-radius: 4px;
+    margin-left: 16px;
+}
+.date, .room{
+    width: 88px;
+    height: 32px;
+    border: 1px solid #D7D8D9;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: center;
+    margin-right: 12px;
+    letter-spacing: 0.2em;
+    color: #007AE9;
+    padding: 4px 0px 3px 0px;
+}
+.hotel_sale{
+    color: #081F32;
+    display: flex;
+}
+.hotel_price{
+    display: flex;
+    
+    color: #B1B4B9;
+}
+.count1{
+    font-size: 48px;
+    text-align: right;
+    letter-spacing: 0.02em;
+}
+.count2{
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    text-decoration-line: line-through;
+}
+.night1{
+    font-size: 30px;    
+}
+.night2{
+    font-size: 16px;
+}
+.hotel{
+    justify-content: space-between;
+}
+.card_medium .price, .card_large .price{
+    flex-direction: column;
+    align-items: flex-end;
+}
+.reminder{
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2ECC71;
+    margin-bottom: 10px;
+}
+.select{
+    width: 464px;
+    height: 82px;
+    padding: 25px;
+}
+.card_large .select{
+    width: 551px;
+}
+.stroke{
+    align-items: flex-end;
+}
+.rating{
+    margin-top: 12px;
+}
+.heart{
+    margin-left: 460px;
+}
+.red_heart{
+    margin-left: 555px;
+}

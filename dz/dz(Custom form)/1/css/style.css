@@ -1,0 +1,56 @@
+.check, .radio{
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transition: opacity 1s linear;
+}
+.check::after{
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    font-family: fontawesome;
+    content: '\f00c';
+    font-size: 100px;
+    width: 99px;
+    height: 99px;
+    background: #9BCCF3;
+    color: #264964;
+    border-radius: 3px;
+    border: 1px solid #76A5CC;
+
+}
+.check:disabled::after{
+    opacity: 0;
+}
+.check:checked::after{
+    opacity: 1;   
+}
+.radio::after{
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    font-family: fontawesome;
+    text-align: center;
+    padding-top: calc(50% - 32px);
+    content: '\f111';
+    font-size: 60px;
+    width: 99px;
+    height: 99px;
+    background: #9BCCF3;
+    color: #264964;
+    border-radius: 50px;
+    border: 1px solid #76A5CC;
+}
+.radio:disabled::after{
+    opacity: 0;
+}
+.radio:checked::after{
+    opacity: 1;
+}

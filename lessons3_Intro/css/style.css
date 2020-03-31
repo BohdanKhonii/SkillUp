@@ -1,0 +1,31 @@
+div{
+    background: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+#item1{
+    background: yellow;
+
+}
+.box{
+    background: hotpink;
+}
+*{
+    color: indigo;
+}
+div:hover{
+    background: grey;
+}
+a:visited{
+    background: lime;
+}
+a:link{
+    background: black;
+}
+table, td, tr{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+input{
+    -webkit-appearance: none;
+}

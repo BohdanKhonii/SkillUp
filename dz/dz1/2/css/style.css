@@ -1,0 +1,34 @@
+*{
+    margin:0;
+}
+body{
+    border: 0px;
+}
+header{
+    background: #B1D0B0; 
+    height: 60px;
+    width: auto;
+}
+nav{
+    background: #68BE65;
+    height: 40px;
+}
+footer{
+    background: #B1D0B0;
+    height: 60px;
+}
+#sidebar{
+    background: #5992D7;
+    height: 500px;
+    width: 300px;
+    
+}
+#content{
+    background: #96B4DA;
+    height: 500px;
+    width: 1000px;
+}
+#conteiner{
+    display: flex;
+    
+}

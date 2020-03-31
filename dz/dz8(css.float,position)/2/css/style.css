@@ -1,0 +1,8 @@
+li:first-of-type{
+    font-weight: 700;
+    color: #E91E63;
+}
+li:last-of-type{
+    color: #4CAF50;
+    font-style: italic;
+}

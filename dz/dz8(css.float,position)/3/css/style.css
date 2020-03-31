@@ -1,0 +1,18 @@
+ul{
+    width: 1000px;
+    margin: 0 auto;
+}
+li{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    margin: 0 5px 5px 0;
+    background: #EEEEEE;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+}
+li:nth-child(3),li:last-of-type{
+    background: #CCFFAA;
+}

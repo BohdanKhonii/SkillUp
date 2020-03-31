@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 800px;
+    width: 100%;
+    background: url(../images/Milk_Jug.png) no-repeat 80% 170px, url(../images/Teapot.png) no-repeat center 50%, url(../images/Coffee_Cup.png) no-repeat 20% 330px ,linear-gradient(0deg, #dce1ed 17%, #c2cadf 36%);
+    /* background: linear-gradient(to top,yellow, blue) no-repeat, url(../images/1.png) no-repeat, url(../images/2.png) no-repeat, url(../images/3.png) no-repeat; */
+}

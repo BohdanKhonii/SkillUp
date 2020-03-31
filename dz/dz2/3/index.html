@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>The World of Fruit</h1>
+    </header>
+    <main>
+        <br><h2>Fruit Survey</h2><br>
+        <form action="app.php" method="post">
+            <div id="text">
+                <p class="text"><label for="name1">Name</label></p><br>
+                <p class="text"><label for="address1">Address</label></p><br>
+                <p class="text"><label for="email1">Email</label><br><br>   
+                <p class="text"><label for="radio1">How many pieces of fruit <br> do you eat per day?</label></p><br><br><br>
+                <p class="text"><label for="select1">My favourite fruit</label></p><br><br><br>
+                <p class="text"><label for="checkbox1">Whold you like a <br> brochure?</label></p>
+            </div>
+            <div id="input">
+                <input type="text" name="name1" id="name1" required><br><br>
+                <input type="text" name="address1" id="address1" required><br><br>            
+                <input type="email" name="email1" id="email1" required><br><br>            
+                <p class="input"><input type="radio" name="radio1" id="radio1" value="0" required>0</p>
+                <p class="input"><input type="radio" name="radio1" value="1">1</p>
+                <p class="input"><input type="radio" name="radio1" value="2">2</p>
+                <p class="input"><input type="radio" name="radio1" value="more2">More than 2</p><br>           
+                <p class="input"><select name="select1" multiple id="select1" required>
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="plum">Plum</option>
+                <option value="pomegranate">Pomegranate</option>
+                <option value="orange">Orange</option>
+                <option value="cherry">Cherry</option>
+                <option value="grape">Grape</option>
+                <option value="kiwi">Kiwi</option>
+                </select></p><br>         
+                <p class="input"><input type="checkbox" name="checkbox1" id="checkbox1" required></p><br>
+                <p class="input"><input type="submit" value="Submit" ></p>
+        </div>
+        </form>
+    </main>
+</body>
+</html>

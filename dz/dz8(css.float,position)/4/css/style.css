@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+header{
+    background: #AFD1AF;
+    height: 100px;
+
+}
+nav{
+    background: #67BE65;
+    height: 60px;
+}
+main{
+    height: 600px;
+    display: flex;
+}
+#sidebar, aside{
+    background: #5A92D8;
+}
+#sidebar{
+    width: 25%;
+}
+aside{
+    width: 25%;
+}
+#content{
+    background: #96B4DA;
+    width: 50%;
+}
+footer{
+    background: #AFD1AF;
+    height: 60px;
+}

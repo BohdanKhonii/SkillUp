@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:#F6F7FA;
+    margin: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+}
+.card{
+    border-radius: 16px;
+    background: white;
+}
+.full{
+    display: flex;    
+    width: 1002px;
+    height: 400px;       
+}
+.mini{
+    height: 400px;
+    width: 318px;
+    margin: auto 32px auto 64px;
+}
+.micro{
+    display: flex;
+    width: 400px;
+    height: 128px;
+}
+.full .icon + div{
+    padding-right: 40px;
+}
+.mini .icon + div{
+    padding-right: 25px;
+}
+.micro .icon + div{
+    padding-right: 24px;
+}
+.icon{
+    background: #BCD1FF;
+    border-radius: 16px 0px 0px 16px;
+}
+.full .icon{
+    width: 400px;
+    height: 400px;
+    padding: 80px 80px;
+}
+.mini .icon{
+    width: 318px;
+    height: 168px;
+    border-radius: 16px 16px 0px 0px;
+    padding: 24px 99px;
+}
+.micro .icon{
+    width: 128px;
+    height: 128px;
+    padding: 25px 22px;
+}
+.section:nth-child(2) .icon{
+    background:linear-gradient(135deg, #F395BA 0%, #FED182 100%);
+}
+.section:nth-child(3) .icon{
+    background: #D2EBF7;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;   
+    color: #6E798C;
+}
+.full .heading{
+    margin: 32px auto auto 35px;
+}
+.mini .heading{
+    margin: 15px auto auto 23px;
+}
+.micro .heading{
+    margin: 25px auto auto 30px;
+}
+.txt{
+    font-weight: 600;    
+    text-transform: uppercase;
+}
+.full .txt{
+    font-size: 20px;
+    line-height: 27px; 
+}
+.mini .txt, .micro .txt{
+    font-size: 11px;
+    line-height: 15px;
+}
+.full .date{
+    font-size: 18px;
+    line-height: 25px;  
+}
+.mini .date, .micro .date{
+    font-size: 11px;
+    line-height: 15px;
+}
+.title{
+    font-family: DM Serif Display;
+    color: #081F32;
+}
+.full .title{    
+    font-size: 40px;
+    line-height: 46px;    
+    margin: 25px auto auto 35px;
+}
+.mini .title, .micro .title{
+    font-size: 20px;
+    line-height: 25px;
+    margin: 10px auto auto 24px;
+}
+.micro .title{
+    margin: 16px auto auto 30px;
+}
+.content{
+    color: #374A59;
+}
+.full .content{
+    font-size: 18px;
+    line-height: 27px;
+    margin: 15px auto auto 35px;
+}
+.mini .content{
+    font-size: 13px;
+    line-height: 19px;
+    margin: 4px auto auto 24px;
+}
+.full .userpic{
+    margin-right: 12px;
+}
+.mini .userpic{
+    margin-right: 8px;
+}
+.bottom{
+    display: flex;
+    font-weight: 600;    
+    color: #007AE9;
+    margin: 0px;
+    justify-content: space-between;    
+}
+.full .bottom{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 25px auto auto 35px;
+}
+.mini .bottom{
+    font-size: 11px;
+    line-height: 15px;
+    margin: 14px auto auto 24px;
+}
+.user{
+    display: flex;
+}
+.name, .link{
+    margin-top: 10px;
+}
+.section{
+    display: flex;
+    padding: 32px 48px;
+    min-width: 1912px;
+}

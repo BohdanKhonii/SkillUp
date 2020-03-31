@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #F6F7FA;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: normal;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial{
+    margin: 32px auto 96px auto;
+}
+body, .card1-2, .box, .testimonial, .full_card, .course_info>*, .container{
+    display: flex;
+}
+.quotes, .autor, .title, .mini_title{
+    font-family: DM Serif Display;
+}
+.review, .job, .course_info, .subtitle, .description, .more{
+    font-family: Open Sans;
+}
+.card1-2, .card3{
+    background: white;
+    border-radius: 16px;
+    padding: 77px 40px 40px 40px;
+}
+.card1-2{
+    width: 672px;
+    height: 240px;
+    justify-content: space-between;
+    margin-bottom: 32px;
+
+}
+.card3{
+    width: 448px;
+    height: 512px;
+    padding: 123px 40px 33px 40px;
+    margin-left: 40px;
+}
+.full_card{
+    padding: 40px 72px 40px 40px;
+    margin-right: 32px;
+}
+.quotes{
+    font-size: 108px;
+    color: #2A4EAA;
+}
+.card3 .quotes{
+    font-size: 160px;
+    color: #F8593B;
+}
+.review{
+    font-size: 18px;
+    line-height: 27px;
+    color: #6E798C;
+    width: 415px;
+}
+.job{
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    color: #6E798C;
+    text-transform: uppercase;
+}
+.card3 .review{
+    width: 368px;
+    line-height: 40px;
+    margin:  8px 0px 64px 0px;
+}
+.author{
+    font-size: 26px;
+    line-height: 25px;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    color: #081F32;
+    margin-top: 21px;
+}
+.avatar{
+    height: 140px;
+    width: 140px;
+    background-image: url(../image/avatar1.png);
+}
+.avatar_mini{
+    width: 64px;
+    height: 64px;
+    background-image: url(../image/avatar3.png);
+    margin-right: 20px;
+}
+#fionn{
+    background-image: url(../image/avatar1.png);
+}
+#bette{
+background-image: url(../image/avatar2.png);
+}
+.line{
+    width: 368px;
+    height: 2px;
+    background: #EBECED;
+    margin-bottom: 33px;
+}
+div[class*="full"]{
+    width: 888px;
+    height: 224px;
+    background-color: white;
+    border-radius: 16px;
+}
+.logo{
+    width: 128px;
+    height: 144px;
+}
+.description{
+    font-size: 16px;
+    color: #6E798C;
+    width: 392px;
+}
+.title{
+    font-size: 22px;
+    color: #081F32;
+}
+.subtitle{
+    font-size: 16px;
+    color: #A5ADBB;
+    margin: 8px 0px;
+}
+.about{
+    margin: 0px 40px 0px 32px;
+    width: 433px;
+}
+.count{
+    font-weight: 600;
+    font-size: 16px;
+    color: #081F32;
+    margin: 0px 8px 0px 16px;
+}
+.txt{
+    color: grey;
+    font-size: 16px;
+}
+.lessons{
+    margin: 27px 0px 26px 0px;
+}
+.mini_card{
+    width: 240px;
+    height: 224px;
+    background: url(../image/python_icon.png) no-repeat, url(../image/background1.png);
+    border-radius: 16px;
+    padding: 24px 16px;
+}
+.container:nth-child(2) .mini_card{
+    background: url(../image/react_icon.png) no-repeat, url(../image/background2.png);
+}
+.container:nth-child(3) .mini_card{
+    background: url(../image/sketch_icon.png) no-repeat, url(../image/background3.png);
+}
+.mini_title{
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.more{
+    display: block;
+    width: 101px;
+    height: 37px;
+    background: white;
+    color: #EF6D83;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 4px;
+    margin: 43px 0px 0px 107px;
+}
+.container:nth-child(2) .more{
+    color: #23A0F5;
+    margin-top: 75px;
+}
+.container:nth-child(3) .more{
+    color: #32B469;
+}
+.container:nth-child(2){
+    margin: 40px 0px 40px 0px;
+}
+.course{
+    padding-bottom: 76px;
+}

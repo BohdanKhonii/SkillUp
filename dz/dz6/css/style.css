@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+}
+.box{
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(to top right, yellow, blue);
+    position: relative;
+    transform: rotate(-45deg);
+    margin: 200px 100px;
+}
+.circle{
+    position: absolute;
+    top: -5px;
+    left: 48%;
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 10px;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    margin: 200px 100px;
+    background: darkblue;
+    /* animation-name: square;
+    animation-duration: 20s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+    animation: 1s linear 0s infinite normal square;
+}
+@keyframes square{
+    /* 0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: rotate(36deg);
+    }
+    20%{
+        transform: rotate(72deg);
+    }
+    30%{
+        transform: rotate(108deg);
+    }
+    40%{
+        transform: rotate(144deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    60%{
+        transform: rotate(216deg);
+    }
+    70%{
+        transform: rotate(252deg);
+    }
+    80%{
+        transform: rotate(288deg);
+    }
+    90%{
+        transform: rotate(324deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    } */
+    100%{
+        transform: rotate(360deg);
+    }
+}

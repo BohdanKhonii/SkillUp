@@ -1,0 +1,92 @@
+body{
+    background:#F6F7FA ;    
+    flex-wrap: wrap;
+    font-family: Open Sans;
+}
+body, .light, .dark{
+    display: flex;
+}
+img{
+    position: absolute;
+}
+div{
+    position: relative;
+    width: 660px;
+    height: 184px;
+    border-radius: 16px;
+    font-style: normal;
+}
+.dark{
+    background: linear-gradient(90.08deg, #25335A 0.02%, #141824 113.01%);
+    margin: 32px 12px 32px auto;
+    color: white;
+}
+.light{
+    background: #fff;
+    margin: 32px auto 32px 12px;
+    color: #B65741;
+}
+.title{
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: normal;
+    margin: 72px auto auto 40px;
+}
+.subtitle{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 0px auto auto 40px;
+}
+.title2{
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: normal;
+    margin: 72px auto auto 40px;
+}
+.subtitle2{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 0px auto auto 40px; 
+}
+#img1{
+    top: 17px;
+    right: 51px;
+}
+#img2{
+    top: -20px;
+    right: 30px;
+}
+#img3{
+    top: -8px;
+    right: 47px;
+}
+#img4{
+    top: -12px;
+    right: 29px;
+}
+#img5{
+    top: -28px;
+    right: 26px;
+}
+#img6{
+    top: 14px;
+    right: -29px;
+}
+#img7{
+    top: -3px;
+    right: 51px;
+}
+#img8{
+    top: -3px;
+    right: 65px;
+}
+#img9{
+    top: -12px;
+    right: 38px;
+}
+#img0{
+    top: -24px;
+    right: 42px;
+}
