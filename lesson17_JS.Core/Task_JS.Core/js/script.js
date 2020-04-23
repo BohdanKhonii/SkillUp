@@ -198,5 +198,16 @@ function getPositiveArr(arr){
 arr=[1,-2,4,-5];
 console.log(getPositiveArr(arr));
 //#######################################################
-
+console.log(`Task 23.`);
+for(i=100;i<1000;i++){
+    if(getDigitsSum(i)==9){
+        console.log(i);
+    }
+}
 //#######################################################
+console.log(`Task 24.`);
+let User={  
+    Alan:{online:false},
+    Jeff:{online:true},
+    Sarah:{online:false}
+}
