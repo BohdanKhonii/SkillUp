@@ -1,0 +1,9 @@
+header{
+    position: fixed;
+}
+header.header{
+    color: green;
+}
+div{
+    opacity: 0;
+}

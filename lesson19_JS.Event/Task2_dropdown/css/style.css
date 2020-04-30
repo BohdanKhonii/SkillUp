@@ -1,0 +1,21 @@
+#droplist{
+    text-align: center;
+    display: none;
+    text-transform: uppercase;
+}
+#btn{
+    border: 0;
+    display: block;
+    width: 200px;
+    height: 60px;
+    background: red;
+    text-transform: uppercase;
+}
+a{
+    display: block;
+    box-sizing: border-box;
+    width: 200px;
+    height: 60px;
+    background: yellow;
+    text-decoration: none;
+}
