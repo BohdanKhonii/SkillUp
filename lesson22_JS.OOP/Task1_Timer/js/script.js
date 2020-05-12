@@ -1,9 +1,9 @@
-let time,i,timerId,timerEnd;
+let time,timerId,timerEnd;
 let snd = new Audio("sound/beep.wav");
 class Timer {   
     start() {
-        time = prompt("Input timer time, s:"), i = 1;        
-        timerId = setInterval(() => $(".time").html(i++), 1000);
+        time = prompt("Input timer time, s:");        
+        timerId = setInterval(() => $(".time").html(--time), 1000);
         timerEnd=setTimeout(() => { clearInterval(timerId); snd.play(); }, 1000 * time);
     }
     stop() {
