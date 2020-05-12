@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": 24.02,
+        "lat": 49.84
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 22,
+        "feels_like": 17.98,
+        "temp_min": 22,
+        "temp_max": 22,
+        "pressure": 1006,
+        "humidity": 40
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 5,
+        "deg": 180
+    },
+    "clouds": {
+        "all": 78
+    },
+    "dt": 1589184796,
+    "sys": {
+        "type": 1,
+        "id": 8909,
+        "country": "UA",
+        "sunrise": 1589165037,
+        "sunset": 1589219803
+    },
+    "timezone": 10800,
+    "id": 702550,
+    "name": "Lviv",
+    "cod": 200
+}
